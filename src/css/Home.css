@@ -1,0 +1,6 @@
+.home {
+    background-image: url('../assets/homepic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Sets the height to full viewport height */
+  }
