@@ -43,9 +43,9 @@ const Home = () => {
                   <img
                     src={iceCream.image}
                     alt={iceCream.title}
-                    className="h-auto w-full max-h-64 max-w-full"
+                    className="h-auto w-full max-h-72 max-w-full" style={{borderRadius: '10%'}}
                   />
-                  <p className="legend mt-3">{iceCream.title}</p>
+                  <p className=" mt-8">{iceCream.title}</p>
                 </div>
               </div>
             ))}

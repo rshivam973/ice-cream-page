@@ -31,6 +31,7 @@ const Contact = () => {
 
   return (
     <Element name="contact" className="contacts-section">
+      <div style={{backgroundColor: "#9fe1ef"}}>
       <div
         className="flex flex-row text-white items-center justify-center mb-20 mt-20"
         style={{ marginLeft: "10%", marginRight: "10%" }}
@@ -1060,6 +1061,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+      </div>
       </div>
       <ToastContainer />
     </Element>
